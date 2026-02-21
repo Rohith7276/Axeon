@@ -25,7 +25,7 @@ const StatutoryCompliance = () => {
         {/* Header */}
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
           <h1 className="text-3xl font-bold text-blue-900 mb-2">
-           E-Waste Management Policy
+            E-Waste Management Policy
           </h1>
 
           <p className="text-gray-800 font-medium">
@@ -64,7 +64,7 @@ const StatutoryCompliance = () => {
             {/* Left Content */}
             <div className="space-y-1">
 
-          
+
 
               <p>
                 <span className="font-medium">Product Name:</span> Dedicated Data Processing Unit
@@ -142,7 +142,7 @@ const StatutoryCompliance = () => {
                 </p>
 
                 <p className=" ">
-                   <span className="font-medium">Telephone No:</span> +91-7760659382
+                  <span className="font-medium">Telephone No:</span> +91-7760659382
                 </p>
 
                 <p className=" ">
@@ -189,14 +189,19 @@ const StatutoryCompliance = () => {
 
           <p><span className="font-medium">GST Registration Number:</span> 29ABBCS6534J1ZZ.</p>
 
-          <p>  Specular Graphics Private Limited.</p>
+
+          <p>  <span className="font-medium">Importer Details: </span> Specular Graphics Private Limited.</p>
 
           <p> </p>
-          <p className="ml-4">
-            4th Floor, 3rd Main, Weavers Colony,<br />
-            Ganganagar Layout, Bangalore-560032,<br />
-            Karnataka, India.
-          </p>
+          <div>
+
+            <span className="font-medium">Registered Office Address: </span>
+            <p className="ml-4  ">
+              4th Floor, 3rd Main, Weavers Colony,<br />
+              Ganganagar Layout, Bangalore-560032,<br />
+              Karnataka, India.
+            </p>
+          </div>
         </Section>
 
         {/* Customer Support */}
@@ -232,12 +237,12 @@ const StatutoryCompliance = () => {
           <SubSection title="A. Disposal Instruction">
             <ul className="list-disc ml-6 space-y-1">
 
-            <li className="text-gray-600">
-              When your product (e.g., Bitaxe Gamma 601) reaches its end-of-life, please do not dispose of it in municipal bins or with general household waste.</li>
-            <li className="text-gray-600">  <span className="font-medium">Request a Pickup:</span> Contact our E-Waste Helpline at +91-7760659382 or email us at <span className="underline">sgplbngl@gmail.com</span>.</li>
-            <li className="text-gray-600"> <span className="font-medium">Drop-off:</span> You may drop off the equipment at our office in Ganganagar Layout or directly at our partner's facility in Kadugodi.
+              <li className="text-gray-600">
+                When your product (e.g., Bitaxe Gamma 601) reaches its end-of-life, please do not dispose of it in municipal bins or with general household waste.</li>
+              <li className="text-gray-600">  <span className="font-medium">Request a Pickup:</span> Contact our E-Waste Helpline at +91-7760659382 or email us at <span className="underline">sgplbngl@gmail.com</span>.</li>
+              <li className="text-gray-600"> <span className="font-medium">Drop-off:</span> You may drop off the equipment at our office in Ganganagar Layout or directly at our partner's facility in Kadugodi.
 
-            </li>
+              </li>
             </ul>
 
             <p className="italic py-2 text-gray-600">
@@ -334,13 +339,7 @@ const StatutoryCompliance = () => {
           <p><span className="font-medium">Importer:</span> SPECULAR GRAPHICS PRIVATE LIMITED, Bangalore.</p>
 
         </Section>
-        <button  className="flex m-auto mt-11 ">
-
-          <a href="/axeon.pdf" download="axeon.pdf" className="flex flex-col justify-center items-center gap-2 font-bold">
-            <img src="pdf.png" className="w-32 " alt="download pdf" />
-            Download E-Waste Policy
-          </a>
-        </button>
+        
       </div>
 
     </div >
