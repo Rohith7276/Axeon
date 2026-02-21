@@ -2,7 +2,7 @@ import React from "react";
 
 const Section = ({ title, children }) => (
   <div className="bg-white shadow-sm border border-gray-200 rounded-lg p-6 mb-6">
-    <h2 className="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+    <h2 className="text-xl font-medium text-gray-800 mb-4 border-b pb-2">
       {title}
     </h2>
     <div className="text-gray-700 space-y-2 leading-relaxed">{children}</div>
@@ -11,7 +11,7 @@ const Section = ({ title, children }) => (
 
 const SubSection = ({ title, children }) => (
   <div className="ml-4 mt-3">
-    <h3 className="font-semibold text-gray-800 mb-1">{title}</h3>
+    <h3 className="font-medium text-gray-800 mb-1">{title}</h3>
     <div className="ml-4 space-y-1">{children}</div>
   </div>
 );
@@ -36,7 +36,7 @@ const StatutoryCompliance = () => {
             <p><span className="font-medium">EPR Registration No:</span> Applied For</p>
             <p><span className="font-medium">LMPC Registration No:</span> Applied For</p>
           </div>
-          <p className="mt-2"><span className="font-medium">Specular Graphics Private Limited </span> Specular Graphics Private Limited is committed to the environmentally sound management of electrical and electronic equipment at its end-of-life, in full compliance with the <span className="font-medium">E-Waste (Management) Rules, 2022. </span></p>
+          <p className="mt-2"><span className="font-medium">Specular Graphics Private Limited </span> is committed to the environmentally sound management of electrical and electronic equipment at its end-of-life, in full compliance with the <span className="font-medium">E-Waste (Management) Rules, 2022. </span></p>
 
         </div>
         <Section title="Our Commitment">
@@ -57,51 +57,49 @@ const StatutoryCompliance = () => {
 
 
 
-        <Section className="max-w-5xl mx-auto bg-gray-200 p-6 shadow-md rounded-lg">
+        <Section title="PRODUCT INFORMATION & COMPLIANCE" className="max-w-5xl mx-auto bg-gray-200 p-6 shadow-md rounded-lg">
 
           <div className="flex lg:flex-row gap-8 lg:gap-1 flex-col  justify-between">
 
             {/* Left Content */}
-            <div className="space-y-1 text-sm">
+            <div className="space-y-1">
 
-              <h2 className="font-bold text-lg mb-2">
-                PRODUCT INFORMATION & COMPLIANCE
-              </h2>
+          
 
               <p>
-                <span className="font-semibold">Product Name:</span> Dedicated Data Processing Unit
+                <span className="font-medium">Product Name:</span> Dedicated Data Processing Unit
               </p>
 
               <p>
-                <span className="font-semibold">Model Number:</span> Bitaxe Gamma 601
+                <span className="font-medium">Model Number:</span> Bitaxe Gamma 601
               </p>
 
               <p>
-                <span className="font-semibold">HSN Code:</span> 8543.70.99
+                <span className="font-medium">HSN Code:</span> 8543.70.99
               </p>
 
               <p>
-                <span className="font-semibold">MRP:</span> ₹ 30,000.00 (Inclusive of all taxes)
+                <span className="font-medium">MRP:</span> ₹ 30,000.00 (Inclusive of all taxes)
               </p>
 
               <p>
-                <span className="font-semibold">Unit Sale Price:</span> ₹ 30,000.00 per 1 N
+                <span className="font-medium">Unit Sale Price:</span> ₹ 30,000.00 per 1 N
               </p>
 
               <p>
-                <span className="font-semibold">Quantity:</span> 1 Unit
+                <span className="font-medium">Quantity:</span> 1 Unit
               </p>
 
               <p>
-                <span className="font-semibold">Weight:</span> 0.1 Kg, Dimensions: 14 × 12 × 10 cm
+                <span className="font-medium">Weight:</span> 0.1 Kg, Dimensions: 14 × 12 × 10 cm
               </p>
 
               <p>
-                <span className="font-semibold">Country of Origin:</span> China
+                <span className="font-medium">Country of Origin:</span> China
               </p>
 
               <div className="mt-4">
-                <p className="font-semibold">Imported & Marketed By:</p>
+                <p className="font-medium">Imported & Marketed By:</p>
 
                 <p className="ml-2">
                   SPECULAR GRAPHICS PRIVATE LIMITED,
@@ -121,13 +119,13 @@ const StatutoryCompliance = () => {
               </div>
 
               <div className="mt-4">
-                <p className="font-semibold">Customer Care Cell:</p>
+                <p className="font-medium">Customer Care Cell:</p>
 
                 <p className="ml-2">
                   Contact Person: Manager – Consumer Grievances
                 </p>
 
-                <p className=" font-semibold">
+                <p className=" font-medium">
                   Address:
                 </p>
 
@@ -143,12 +141,12 @@ const StatutoryCompliance = () => {
                   Bangalore-560032, Karnataka, India.
                 </p>
 
-                <p className="ml-2">
-                  Telephone No: +91-7760659382
+                <p className=" ">
+                   <span className="font-medium">Telephone No:</span> +91-7760659382
                 </p>
 
-                <p className="ml-2">
-                  Email: <span className="underline">sgplbngl@gmail.com</span>
+                <p className=" ">
+                  <span className="font-medium">Email:</span> <span className="underline">sgplbngl@gmail.com</span>
                 </p>
               </div>
 
@@ -191,11 +189,11 @@ const StatutoryCompliance = () => {
 
           <p><span className="font-medium">GST Registration Number:</span> 29ABBCS6534J1ZZ.</p>
 
-          <p><span className="font-medium">Importer Details:</span> Specular Graphics Private Limited.</p>
+          <p>  Specular Graphics Private Limited.</p>
 
-          <p><span className="font-medium">Importer Registered Office:</span></p>
+          <p> </p>
           <p className="ml-4">
-            4th Floor, 3rd Main Weavers Colony,<br />
+            4th Floor, 3rd Main, Weavers Colony,<br />
             Ganganagar Layout, Bangalore-560032,<br />
             Karnataka, India.
           </p>
@@ -232,12 +230,16 @@ const StatutoryCompliance = () => {
           <p><span className="font-medium">EPR Registration No:</span> Applied For</p>
 
           <SubSection title="A. Disposal Instruction">
-            <p className="text-gray-600">
-              When your product (e.g., Bitaxe Gamma 601) reaches its end-of-life, please do not dispose of it in municipal bins or with general household waste.</p>
-            <p className="text-gray-600">  <span className="font-medium">Request a Pickup:</span> Contact our E-Waste Helpline at +91-7760659382 or email us at <span className="underline">sgplbngl@gmail.com</span>.</p>
-            <p className="text-gray-600"> <span className="font-medium">Drop-off:</span> You may drop off the equipment at our office in Ganganagar Layout or directly at our partner's facility in Kadugodi.
+            <ul className="list-disc ml-6 space-y-1">
 
-            </p>
+            <li className="text-gray-600">
+              When your product (e.g., Bitaxe Gamma 601) reaches its end-of-life, please do not dispose of it in municipal bins or with general household waste.</li>
+            <li className="text-gray-600">  <span className="font-medium">Request a Pickup:</span> Contact our E-Waste Helpline at +91-7760659382 or email us at <span className="underline">sgplbngl@gmail.com</span>.</li>
+            <li className="text-gray-600"> <span className="font-medium">Drop-off:</span> You may drop off the equipment at our office in Ganganagar Layout or directly at our partner's facility in Kadugodi.
+
+            </li>
+            </ul>
+
             <p className="italic py-2 text-gray-600">
               "This product must not be disposed of with regular household waste.
               It contains electronic components that require specialized recycling
@@ -247,7 +249,7 @@ const StatutoryCompliance = () => {
 
           <SubSection title="B. Do’s">
             <ul className="list-disc ml-6 space-y-1">
-              <li>Drop used electronic products at authorized e-waste collection points.</li>
+              <li>Always drop your used electronic products and accessories at the nearest Authorized E-Waste Collection Point.</li>
               <li>Disconnect the product from power before disposal.</li>
               <li>Protect fragile parts during transport.</li>
               <li>Consult the user manual for proper handling.</li>
@@ -269,7 +271,7 @@ const StatutoryCompliance = () => {
           <p>
             Improper disposal can lead to the leaching of toxic chemicals into the soil
             and groundwater, causing long-term health risks to the community. By using our authorized channel, you ensure that
-            <span className="font-semibold"> 90%+ of materials </span>
+            <span className="font-medium"> 90%+ of materials </span>
             (plastics, metals, and PCBs) are recovered and reused in a circular economy.
           </p>
 
