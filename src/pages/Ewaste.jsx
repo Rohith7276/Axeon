@@ -25,18 +25,38 @@ const StatutoryCompliance = () => {
         {/* Header */}
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
           <h1 className="text-3xl font-bold text-blue-900 mb-2">
-            Statutory Compliance & E-Waste Management Portal
+            <span className="font-medium">Title:</span> E-Waste Management Policy
           </h1>
 
           <p className="text-gray-800 font-medium">
-            Specular Graphics Private Limited
+            <span className="font-medium">Company:</span> Specular Graphics Private Limited
           </p>
 
           <div className="mt-2  text-gray-700">
             <p><span className="font-medium">EPR Registration No:</span> Applied For</p>
             <p><span className="font-medium">LMPC Registration No:</span> Applied For</p>
           </div>
+          <p className="mt-2"><span className="font-medium">Specular Graphics Private Limited </span> Specular Graphics Private Limited is committed to the environmentally sound management of electrical and electronic equipment at its end-of-life, in full compliance with the <span className="font-medium">E-Waste (Management) Rules, 2022. </span></p>
+
         </div>
+        <Section title="Our Commitment">
+
+          <p>We recognize our Extended Producer Responsibility (EPR) for the products we import and sell, specifically under <span className="font-medium"> Category ITEW1</span> (Dedicated Data Processing Units). We ensure that these products are channelized to authorized recyclers for safe disposal and material recovery.</p>
+
+        </Section>
+        <Section title="Our Authorized Recycling Partner">
+
+          <p>We have partnered with <span className="font-medium"> M/s Trivendent Technologies Private Limited (Zolopik)</span>, a KSPCB-authorized recycler, to manage our e-waste collection and recycling process.</p>
+          <ul className="list-disc ml-6 space-y-2">
+            <li><span className="font-medium">Recycler Name:</span> Trivendent Technologies Pvt Ltd (Zolopik)</li>
+            <li><span className="font-medium">KSPCB Authorization No:</span> PCB/WMC/157/E-Waste/2022/675</li>
+            <li><span className="font-medium">Facility Address:</span> #7A1, Kadugodi Industrial Area, Off Whitefield Road, Bengaluru - 560067</li>
+          </ul>
+
+        </Section>
+
+
+
         <Section className="max-w-5xl mx-auto bg-gray-200 p-6 shadow-md rounded-lg">
 
           <div className="flex lg:flex-row gap-8 lg:gap-1 flex-col  justify-between">
@@ -71,7 +91,7 @@ const StatutoryCompliance = () => {
                 <p>Address: SPECULAR GRAPHICS PRIVATE LIMITED</p>
                 <p>Bangalore-560032, Karnataka, India.</p>
                 <p>Telephone No: +91-7760659382</p>
-                <p>Email: sgplbngl@gmail.com</p>
+                <p>Email: <span className="underline">sgplbngl@gmail.com</span></p>
               </div>
 
             </div>
@@ -82,7 +102,7 @@ const StatutoryCompliance = () => {
               {/* QR Code Placeholder */}
               <div className="flex flex-col items-center">
                 <div className="w-32 h-32   border-black  ">
-                                  <img src="qr.png" className=" w-full " alt="qr image" />
+                  <img src="qr.jpeg" className=" w-full " alt="qr image" />
 
                 </div>
                 <p className="text-sm mt-2 text-center">
@@ -128,7 +148,7 @@ const StatutoryCompliance = () => {
 
           <p><span className="font-medium">Customer Care Manager:</span> Manager – Consumer Grievances.</p>
           <p><span className="font-medium">Support Telephone:</span> +91-7760659382.</p>
-          <p><span className="font-medium">Support Email:</span> sgplbngl@gmail.com.</p>
+          <p><span className="font-medium">Support Email:</span> <span className="underline">sgplbngl@gmail.com</span>.</p>
 
           <p><span className="font-medium">Grievance Officer:</span></p>
           <p className="ml-4">
@@ -154,10 +174,16 @@ const StatutoryCompliance = () => {
           <p><span className="font-medium">EPR Registration No:</span> Applied For</p>
 
           <SubSection title="A. Disposal Instruction">
-            <p className="italic text-gray-600">
-              This product must not be disposed of with regular household waste.
+            <p className="text-gray-600">
+              When your product (e.g., Bitaxe Gamma 601) reaches its end-of-life, please do not dispose of it in municipal bins or with general household waste.</p>
+             <p className="text-gray-600">  <span className="font-medium">Request a Pickup:</span> Contact our E-Waste Helpline at +91-7760659382 or email us at <span className="underline">sgplbngl@gmail.com</span>.</p>
+             <p className="text-gray-600"> <span className="font-medium">Drop-off:</span> You may drop off the equipment at our office in Ganganagar Layout or directly at our partner's facility in Kadugodi.
+
+            </p>
+            <p className="italic py-2 text-gray-600">
+              "This product must not be disposed of with regular household waste.
               It contains electronic components that require specialized recycling
-              to prevent environmental damage.
+              to prevent environmental damage.""
             </p>
           </SubSection>
 
@@ -172,15 +198,24 @@ const StatutoryCompliance = () => {
 
           <SubSection title="C. Don’ts">
             <ul className="list-disc ml-6 space-y-1">
-              <li>Do not dismantle the product yourself.</li>
-              <li>Do not dispose in municipal waste bins.</li>
-              <li>Do not sell to informal scrap dealers.</li>
-              <li>Do not dispose in landfill garbage bins.</li>
+              <li>Do not dismantle the product on your own.</li>
+              <li>Do not dispose in municipal waste bins (marked with a 'Do Not Dispose' sign).</li>
+              <li>Do not sell to informal scrap dealers (Kabadiwalas).</li>
+              <li>Do not dispose in landfill garbage bins that reach landfills, as it contains hazardous components like lead and mercury that can damage the environment. </li>
             </ul>
           </SubSection>
 
         </Section>
+        <Section title="Hazards of Improper Handling">
 
+          <p>
+            Improper disposal can lead to the leaching of toxic chemicals into the soil
+            and groundwater, causing long-term health risks to the community. By using our authorized channel, you ensure that
+            <span className="font-semibold"> 90%+ of materials </span>
+            (plastics, metals, and PCBs) are recovered and reused in a circular economy.
+          </p>
+
+        </Section>
         {/* Collection & Buyback */}
         <Section title="E-Waste Collection & Buyback">
 
@@ -239,10 +274,16 @@ const StatutoryCompliance = () => {
           <p><span className="font-medium">Importer:</span> SPECULAR GRAPHICS PRIVATE LIMITED, Bangalore.</p>
 
         </Section>
+        <button className="flex m-auto mt-11 ">
 
+        <a href="" className="flex flex-col justify-center items-center gap-2 font-bold">  
+          <img src="pdf.png" className="w-32 " alt="download pdf" />
+          Download E-Waste Policy
+         </a>
+        </button>
       </div>
 
-    </div>
+    </div >
   );
 };
 
