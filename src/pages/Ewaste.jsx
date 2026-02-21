@@ -68,30 +68,88 @@ const StatutoryCompliance = () => {
                 PRODUCT INFORMATION & COMPLIANCE
               </h2>
 
-              <p><span className="font-semibold">Product Name:</span> Dedicated Data Processing Unit</p>
-              <p><span className="font-semibold">Model Number:</span> Bitaxe Gamma 601</p>
-              <p><span className="font-semibold">HSN Code:</span> 8543.70.99</p>
-              <p><span className="font-semibold">MRP:</span> ₹ 30,000.00 (Inclusive of all taxes)</p>
-              <p><span className="font-semibold">Unit Sale Price:</span> ₹ 30,000.00 per 1 N</p>
-              <p><span className="font-semibold">Quantity:</span> 1 Unit</p>
-              <p><span className="font-semibold">Weight:</span> 0.1 Kg, Dimensions: 14 × 12 × 10 cm</p>
-              <p><span className="font-semibold">Country of Origin:</span> China</p>
+              <p>
+                <span className="font-semibold">Product Name:</span> Dedicated Data Processing Unit
+              </p>
+
+              <p>
+                <span className="font-semibold">Model Number:</span> Bitaxe Gamma 601
+              </p>
+
+              <p>
+                <span className="font-semibold">HSN Code:</span> 8543.70.99
+              </p>
+
+              <p>
+                <span className="font-semibold">MRP:</span> ₹ 30,000.00 (Inclusive of all taxes)
+              </p>
+
+              <p>
+                <span className="font-semibold">Unit Sale Price:</span> ₹ 30,000.00 per 1 N
+              </p>
+
+              <p>
+                <span className="font-semibold">Quantity:</span> 1 Unit
+              </p>
+
+              <p>
+                <span className="font-semibold">Weight:</span> 0.1 Kg, Dimensions: 14 × 12 × 10 cm
+              </p>
+
+              <p>
+                <span className="font-semibold">Country of Origin:</span> China
+              </p>
 
               <div className="mt-4">
                 <p className="font-semibold">Imported & Marketed By:</p>
-                <p>SPECULAR GRAPHICS PRIVATE LIMITED,</p>
-                <p>4th Floor, 3rd Main Weavers Colony, Ganganagar Layout,</p>
-                <p>Bangalore-560032, Karnataka, India.</p>
-                <p>Month & Year of Import: February 2026</p>
+
+                <p className="ml-2">
+                  SPECULAR GRAPHICS PRIVATE LIMITED,
+                </p>
+
+                <p className="ml-2">
+                  4th Floor, 3rd Main Weavers Colony, Ganganagar Layout,
+                </p>
+
+                <p className="ml-2">
+                  Bangalore-560032, Karnataka, India.
+                </p>
+
+                <p className="ml-2">
+                  Month & Year of Import: February 2026
+                </p>
               </div>
 
               <div className="mt-4">
                 <p className="font-semibold">Customer Care Cell:</p>
-                <p>Contact Person: Manager – Consumer Grievances</p>
-                <p>Address: SPECULAR GRAPHICS PRIVATE LIMITED</p>
-                <p>Bangalore-560032, Karnataka, India.</p>
-                <p>Telephone No: +91-7760659382</p>
-                <p>Email: <span className="underline">sgplbngl@gmail.com</span></p>
+
+                <p className="ml-2">
+                  Contact Person: Manager – Consumer Grievances
+                </p>
+
+                <p className=" font-semibold">
+                  Address:
+                </p>
+
+                <p className="ml-4">
+                  SPECULAR GRAPHICS PRIVATE LIMITED
+                </p>
+
+                <p className="ml-4">
+                  4th Floor, 3rd Main Weavers Colony, Ganganagar Layout,
+                </p>
+
+                <p className="ml-4">
+                  Bangalore-560032, Karnataka, India.
+                </p>
+
+                <p className="ml-2">
+                  Telephone No: +91-7760659382
+                </p>
+
+                <p className="ml-2">
+                  Email: <span className="underline">sgplbngl@gmail.com</span>
+                </p>
               </div>
 
             </div>
@@ -176,8 +234,8 @@ const StatutoryCompliance = () => {
           <SubSection title="A. Disposal Instruction">
             <p className="text-gray-600">
               When your product (e.g., Bitaxe Gamma 601) reaches its end-of-life, please do not dispose of it in municipal bins or with general household waste.</p>
-             <p className="text-gray-600">  <span className="font-medium">Request a Pickup:</span> Contact our E-Waste Helpline at +91-7760659382 or email us at <span className="underline">sgplbngl@gmail.com</span>.</p>
-             <p className="text-gray-600"> <span className="font-medium">Drop-off:</span> You may drop off the equipment at our office in Ganganagar Layout or directly at our partner's facility in Kadugodi.
+            <p className="text-gray-600">  <span className="font-medium">Request a Pickup:</span> Contact our E-Waste Helpline at +91-7760659382 or email us at <span className="underline">sgplbngl@gmail.com</span>.</p>
+            <p className="text-gray-600"> <span className="font-medium">Drop-off:</span> You may drop off the equipment at our office in Ganganagar Layout or directly at our partner's facility in Kadugodi.
 
             </p>
             <p className="italic py-2 text-gray-600">
@@ -276,10 +334,10 @@ const StatutoryCompliance = () => {
         </Section>
         <button className="flex m-auto mt-11 ">
 
-        <a href="" className="flex flex-col justify-center items-center gap-2 font-bold">  
-          <img src="pdf.png" className="w-32 " alt="download pdf" />
-          Download E-Waste Policy
-         </a>
+          <a href="" className="flex flex-col justify-center items-center gap-2 font-bold">
+            <img src="pdf.png" className="w-32 " alt="download pdf" />
+            Download E-Waste Policy
+          </a>
         </button>
       </div>
 
