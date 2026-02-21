@@ -32,7 +32,7 @@ const StatutoryCompliance = () => {
             Specular Graphics Private Limited
           </p>
 
-          <div className="mt-2 ml-4 text-gray-700">
+          <div className="mt-2  text-gray-700">
             <p><span className="font-medium">EPR Registration No:</span> Applied For</p>
             <p><span className="font-medium">LMPC Registration No:</span> Applied For</p>
           </div>
@@ -77,7 +77,7 @@ const StatutoryCompliance = () => {
             </div>
 
             {/* Right Side */}
-            <div className="flex flex-col mr-20 justify-around items-center gap-6">
+            <div className="flex flex-col mr-20 w-full lg:w-fit justify-around items-center gap-6">
 
               {/* QR Code Placeholder */}
               <div className="flex flex-col items-center">
