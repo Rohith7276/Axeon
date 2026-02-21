@@ -25,7 +25,7 @@ const StatutoryCompliance = () => {
         {/* Header */}
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
           <h1 className="text-3xl font-bold text-blue-900 mb-2">
-            <span className="font-medium">Title:</span> E-Waste Management Policy
+           E-Waste Management Policy
           </h1>
 
           <p className="text-gray-800 font-medium">
