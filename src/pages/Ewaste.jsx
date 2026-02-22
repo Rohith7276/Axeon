@@ -94,7 +94,7 @@ const StatutoryCompliance = () => {
               </p>
 
               <p>
-                <span className="font-medium">Weight:</span> 0.1 Kg, Dimensions: 14 × 12 × 10 cm
+                <span className="font-medium">Weight:</span> 0.4 Kg, Dimensions: 14 × 12 × 10 cm
               </p>
 
               <p>
@@ -109,7 +109,7 @@ const StatutoryCompliance = () => {
                 </p>
 
                 <p className="ml-2">
-                  4th Floor, 3rd Main Weavers Colony, Ganganagar Layout,
+                  #165, 4th floor, 3rd Main Weavers Colony, Ganganagar Layout,
                 </p>
 
                 <p className="ml-2">
@@ -137,7 +137,7 @@ const StatutoryCompliance = () => {
                 </p>
 
                 <p className="ml-4">
-                  4th Floor, 3rd Main Weavers Colony, Ganganagar Layout,
+                  #165, 4th floor, 3rd Main Weavers Colony, Ganganagar Layout,
                 </p>
 
                 <p className="ml-4">
@@ -185,7 +185,7 @@ const StatutoryCompliance = () => {
 
           <p><span className="font-medium">Registered Office Address:</span></p>
           <p className="ml-4">
-            4th Floor, 3rd Main Weavers Colony,<br />
+            #165, 4th floor, 3rd Main Weavers Colony,<br />
             Ganganagar Layout, Bangalore-560032,<br />
             Karnataka, India.
           </p>
@@ -200,7 +200,7 @@ const StatutoryCompliance = () => {
 
             <span className="font-medium">Registered Office Address: </span>
             <p className="ml-4  ">
-              4th Floor, 3rd Main, Weavers Colony,<br />
+              #165, 4th floor, 3rd Main, Weavers Colony,<br />
               Ganganagar Layout, Bangalore-560032,<br />
               Karnataka, India.
             </p>
@@ -217,7 +217,7 @@ const StatutoryCompliance = () => {
           <p><span className="font-medium">Grievance Officer:</span></p>
           <p className="ml-4">
             Mr. Anand Kumar MS, Director,<br />
-            4th Floor, 3rd Main Weavers Colony,<br />
+            #165, 4th floor, 3rd Main Weavers Colony,<br />
             Ganganagar Layout, Bangalore-560032,<br />
             Karnataka, India.
           </p>
@@ -291,7 +291,7 @@ const StatutoryCompliance = () => {
 
           <p className="ml-4">
             SPECULAR GRAPHICS PRIVATE LIMITED,<br />
-            4th Floor, 3rd Main Weavers Colony,<br />
+            #165, 4th floor, 3rd Main Weavers Colony,<br />
             Ganganagar Layout, Bangalore-560032,<br />
             Karnataka, India.
           </p>
@@ -342,13 +342,7 @@ const StatutoryCompliance = () => {
           <p><span className="font-medium">Importer:</span> SPECULAR GRAPHICS PRIVATE LIMITED, Bangalore.</p>
 
         </Section>
-        <button className="flex m-auto mt-11 ">
-
-          <a href="/axeon.pdf" download="axeon.pdf" className="flex flex-col justify-center items-center gap-2 font-bold">
-            <img src="pdf.png" className="w-32 " alt="download pdf" />
-            Download E-Waste Policy
-          </a>
-        </button>
+     
       </div>
 
     </div >
