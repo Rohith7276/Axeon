@@ -342,7 +342,13 @@ const StatutoryCompliance = () => {
           <p><span className="font-medium">Importer:</span> SPECULAR GRAPHICS PRIVATE LIMITED, Bangalore.</p>
 
         </Section>
-       
+        <button className="flex m-auto mt-11 ">
+
+          <a href="/axeon.pdf" download="axeon.pdf" className="flex flex-col justify-center items-center gap-2 font-bold">
+            <img src="pdf.png" className="w-32 " alt="download pdf" />
+            Download E-Waste Policy
+          </a>
+        </button>
       </div>
 
     </div >
